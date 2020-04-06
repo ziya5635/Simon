@@ -1,0 +1,85 @@
+body {
+  text-align: center;
+  background-color: #000839;
+
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+  color: #ffeb99;
+  margin-top: 2rem;
+  margin-bottom: .5rem;
+  font-size: 4rem;
+}
+
+/*http://www.multipetros.gr/posts/728-blink-elements-border-the-css-way*/
+.green {
+  background-color: green;
+  height: 10em;
+  margin: 1em 1em 1em 4em;
+  border-radius: 10%;
+}
+
+.gameOver {
+  background-color: #d63447;
+}
+
+.row span {
+  visibility: hidden;
+}
+
+
+.red {
+  background-color: red;
+  height: 10em;
+  margin: 1em;
+  border-radius: 10%;
+}
+
+.yellow {
+  background-color: yellow;
+  height: 10em;
+  margin: 1em 1em 1em 4em;
+  border-radius: 10%;
+}
+
+.blue {
+  background-color: blue;
+  margin: 1em;
+  height: 10em;
+  border-radius: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .customContainer {
+    padding: 2em 4em;
+
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  .customContainer {
+    padding: 2em 10em;
+
+  }
+}
+
+@media only screen and (min-width: 992px) {
+
+  .customContainer {
+    padding: 2em 15em;
+
+  }
+
+}
+
+@media only screen and (min-width: 1070px) {
+
+  .customContainer {
+    padding: 2em 22em;
+
+  }
+
+}
